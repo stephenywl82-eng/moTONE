@@ -40,7 +40,7 @@ moTONE 是一款专注音乐播放的 Android 应用，无广告、无追踪、�
 
 ## 下载安装包
 
-三个版本功能完全一致，仅支持的 CPU 架构不同：
+三个版本功能完全一致，仅支持的 CPU 架构不同。v3.1.5 更新：曲库与专辑页滑动更流畅（封面改为后台异步加载）、修正安装版本号显示、关于页不再标注原版、遥控按键增加状态反馈、修复插入耳机无声音及输出设备误显示。
 
 | 安装包 | 适用设备 | 大小 |
 | --- | --- | --- |
@@ -104,7 +104,7 @@ moTONE is a focused Android music player with no ads, no tracking, and no push n
 
 ## Download
 
-All three builds have identical features — they only differ in supported CPU architecture:
+All three builds have identical features — they only differ in supported CPU architecture. What's new in v3.1.5: smoother library/album scrolling (covers now load in the background), corrected version number, cleaned-up About page, feedback for remote-control buttons, and fixes for headphone audio output detection.
 
 | Package | For | Size |
 | --- | --- | --- |
