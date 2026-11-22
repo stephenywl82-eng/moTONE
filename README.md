@@ -40,16 +40,16 @@ moTONE 是一款专注音乐播放的 Android 应用，无广告、无追踪、�
 
 ## 下载安装包
 
-三个版本功能完全一致，仅支持的 CPU 架构不同。v3.1.5 更新：曲库与专辑页滑动更流畅（封面改为后台异步加载）、修正安装版本号显示、关于页不再标注原版、遥控按键增加状态反馈、修复插入耳机无声音及输出设备误显示。
+三个版本功能完全一致，仅支持的 CPU 架构不同。v3.1.6 更新：曲库与专辑页滑动更流畅（封面改为后台异步加载）、修正安装版本号显示、关于页不再标注原版、遥控按键增加状态反馈、修复插入耳机无声音及输出设备误显示、封面读取增加内嵌封面兜底（兼容 Android 10+）。
 
 | 安装包 | 适用设备 | 大小 |
 | --- | --- | --- |
-| [moTONE-v3.1.5-universal.apk](releases/moTONE-v3.1.5-universal.apk) | 通用版，32 位 / 64 位都能装，不确定就选这个（含文字搜索等全部功能） | 409 KB |
-| [moTONE-v3.1.5-64bit.apk](releases/moTONE-v3.1.5-64bit.apk) | 仅 64 位手机，体积更小 | 265 KB |
-| [moTONE-v3.1.5-32bit.apk](releases/moTONE-v3.1.5-32bit.apk) | 仅 32 位手机 / 老旧设备，修复启动闪退、桌面锁定、FLAC 闪退、歌词重叠，新增文字搜索、艺术家tab滑动优化（真机验证通过） | 265 KB |
+| [moTONE-v3.1.6-universal.apk](releases/moTONE-v3.1.6-universal.apk) | 通用版，32 位 / 64 位都能装，不确定就选这个（含文字搜索等全部功能） | 409 KB |
+| [moTONE-v3.1.6-64bit.apk](releases/moTONE-v3.1.6-64bit.apk) | 仅 64 位手机，体积更小 | 265 KB |
+| [moTONE-v3.1.6-32bit.apk](releases/moTONE-v3.1.6-32bit.apk) | 仅 32 位手机 / 老旧设备，修复启动闪退、桌面锁定、FLAC 闪退、歌词重叠，新增文字搜索、艺术家tab滑动优化（真机验证通过） | 265 KB |
 
 所有安装包均已签名。安装时如提示"未知来源"，请在系统设置里允许安装未知应用。
-Android 4.0/4.4（API 14-20）等老旧设备请用 v3.1.5 32 位版：该版改用兼容主题、隔离高版本 API 调用、修复运行时权限检查崩溃，修复了作为默认桌面时启动崩溃导致"桌面锁定不住"的问题、桌面模式返回键退出问题、播放 FLAC 时 NEON 指令导致 native 崩溃的问题（不支持 NEON 的老 CPU 自动回退系统解码），以及歌词页歌词与歌名重叠的问题（行高自适应屏幕高度），并新增真正的文字搜索（输入歌名/歌手/专辑实时过滤）——已在 Android 4.4 真机验证可正常启动、HOME 稳定进入、返回键留在桌面、FLAC 正常播放。
+Android 4.0/4.4（API 14-20）等老旧设备请用 v3.1.6 32 位版：该版改用兼容主题、隔离高版本 API 调用、修复运行时权限检查崩溃，修复了作为默认桌面时启动崩溃导致"桌面锁定不住"的问题、桌面模式返回键退出问题、播放 FLAC 时 NEON 指令导致 native 崩溃的问题（不支持 NEON 的老 CPU 自动回退系统解码），以及歌词页歌词与歌名重叠的问题（行高自适应屏幕高度），并新增真正的文字搜索（输入歌名/歌手/专辑实时过滤）——已在 Android 4.4 真机验证可正常启动、HOME 稳定进入、返回键留在桌面、FLAC 正常播放。
 
 ---
 
@@ -104,16 +104,16 @@ moTONE is a focused Android music player with no ads, no tracking, and no push n
 
 ## Download
 
-All three builds have identical features — they only differ in supported CPU architecture. What's new in v3.1.5: smoother library/album scrolling (covers now load in the background), corrected version number, cleaned-up About page, feedback for remote-control buttons, and fixes for headphone audio output detection.
+All three builds have identical features — they only differ in supported CPU architecture. What's new in v3.1.6: smoother library/album scrolling (covers now load in the background), corrected version number, cleaned-up About page, feedback for remote-control buttons, headphone audio output detection, and embedded album-art fallback for Android 10+.
 
 | Package | For | Size |
 | --- | --- | --- |
-| [moTONE-v3.1.5-universal.apk](releases/moTONE-v3.1.5-universal.apk) | Universal — works on both 32-bit and 64-bit; pick this if unsure (all features incl. text search) | 409 KB |
-| [moTONE-v3.1.5-64bit.apk](releases/moTONE-v3.1.5-64bit.apk) | 64-bit phones only, smaller size | 265 KB |
-| [moTONE-v3.1.5-32bit.apk](releases/moTONE-v3.1.5-32bit.apk) | 32-bit phones / older devices, with startup-crash, home-lock, FLAC-playback, lyrics-layout fixes, with text search & artist-tab scroll fix (verified on device) | 265 KB |
+| [moTONE-v3.1.6-universal.apk](releases/moTONE-v3.1.6-universal.apk) | Universal — works on both 32-bit and 64-bit; pick this if unsure (all features incl. text search) | 409 KB |
+| [moTONE-v3.1.6-64bit.apk](releases/moTONE-v3.1.6-64bit.apk) | 64-bit phones only, smaller size | 265 KB |
+| [moTONE-v3.1.6-32bit.apk](releases/moTONE-v3.1.6-32bit.apk) | 32-bit phones / older devices, with startup-crash, home-lock, FLAC-playback, lyrics-layout fixes, with text search & artist-tab scroll fix (verified on device) | 265 KB |
 
 All packages are signed. If installation warns about "unknown sources", enable installation of unknown apps in your system settings.
-For old devices running Android 4.0/4.4 (API 14-20), use the v3.1.5 32-bit build: it uses a compatible theme, isolates higher-API calls, fixes the runtime-permission crash, fixes the startup crash that made the home-screen lock unreliable, stops the Back key from exiting the home screen, fixes FLAC playback crashes on CPUs without NEON (falls back to system decoding), fixes lyrics overlapping the track title (line height adapts to screen height), and adds real text search (type a title/artist/album to filter instantly) — verified on an Android 4.4 device: HOME opens moTONE, Back stays in the launcher, and FLAC plays normally.
+For old devices running Android 4.0/4.4 (API 14-20), use the v3.1.6 32-bit build: it uses a compatible theme, isolates higher-API calls, fixes the runtime-permission crash, fixes the startup crash that made the home-screen lock unreliable, stops the Back key from exiting the home screen, fixes FLAC playback crashes on CPUs without NEON (falls back to system decoding), fixes lyrics overlapping the track title (line height adapts to screen height), and adds real text search (type a title/artist/album to filter instantly) — verified on an Android 4.4 device: HOME opens moTONE, Back stays in the launcher, and FLAC plays normally.
 
 ---
 
